@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+   <head>
+      <meta charset="utf-8">
+      <title>Login Form</title>
+      <link rel="stylesheet" href="loginstyle.css">
+   </head>
+   <body>
+      <div class="wrapper">
+         <div class="title">
+            Login Form
+         </div>
+         <form action="#">
+            <div class="radio">
+               <input class="radio-btn" type="radio" name="RadioDefault" id="RadioDefault1">
+               <label class="radiotext" for="RadioDefault1">
+                 Doctor
+               </label>
+               <input class="radio-btn" type="radio" name="RadioDefault" id="RadioDefault2" checked>
+               <label class="radiotext" for="RadioDefault2">
+                 Patient
+               </label>
+            </div>   
+            <div class="field">
+               <input type="text" required>
+               <label>User ID</label>
+            </div>
+            <div class="field">
+               <input type="password" required>
+               <label>Password</label>
+            </div>
+            <div class="content">
+               <div class="checkbox">
+                  <input type="checkbox" id="remember-me">
+                  <label for="remember-me">Remember me</label>
+               </div>
+               <div class="pass-link">
+                  <a href="#">Forgot password?</a>
+               </div>
+            </div>
+            <div class="field">
+               <a href="profile.html"><input type="submit" value="Login"></a>
+            </div>
+            <div class="signup-link">
+               Not a member? <a href="register.html">Register now</a>
+            </div>
+         </form>
+      </div>
+   </body>
+</html>
